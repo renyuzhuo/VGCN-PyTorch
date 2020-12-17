@@ -19,7 +19,6 @@ import utils
 from datasets.cviqd_gl import get_dataset
 from model.final_model import VGCN
 
-os.environ['CUDA_VISIBLE_DEVICES'] = "7"
 # Training settings
 parser = argparse.ArgumentParser(description='VR Image Quality Assessment')
 parser.add_argument('--start_epoch', type=int, default=1)
